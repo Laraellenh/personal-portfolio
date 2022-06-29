@@ -38,6 +38,9 @@ ul {
     justify-content: space-around;
     font-size: 24px;
 }
+ul.show {
+    display: block;
+}
 li {
     
     text-decoration: none;
@@ -201,4 +204,41 @@ a {
 
 .interest-padd {
     padding: 20px;
+}
+
+
+.ham {
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .image-span {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ham {
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin: 20px;
+    align-self: flex-end;
+    }
+    ul {
+        display: none;
+        background-color:  #4651a9;
+        margin: 0px;
+    }
+    nav {
+       display: flex;
+       flex-direction: column-reverse;
+       background-color:  #4651a9;
+    }
+    .logo {
+        display: none;
+    }
+}
+.ham:focus {
+    outline: 0;
 }
