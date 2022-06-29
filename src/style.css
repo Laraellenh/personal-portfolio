@@ -11,7 +11,7 @@ section {
 }
 
 .hero {
-    background-color: #1c1d25;
+    background-color: #253185;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -116,7 +116,7 @@ body {
     display: flex;
     margin: 30px;
     /* justify-content: space-evenly; */
-    padding: 20px;
+    padding: 30px;
     
 }
 
@@ -152,6 +152,7 @@ a {
 }
 .fg-logo {
  width: 100px;
+ border-radius: 20%;
  
 }
 
@@ -186,4 +187,18 @@ a {
     display: flex;
     position: sticky;
     flex-direction: row;
+}
+.image-span {
+    padding: 30px;
+    display: space-evenly;
+}
+.interest-images {
+    height: 200px;
+    padding: 25px;
+    border-radius: 20%;
+    
+}
+
+.interest-padd {
+    padding: 20px;
 }
