@@ -1,7 +1,12 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
 section {
-    height: 500px;
+  
     background-color: white;
-    border: solid black 2px;
+    border: solid hotpink 2px;
 
 }
 
@@ -12,9 +17,12 @@ section {
     font-size: 40px;
 }
 
+
 footer {
-    height: 500px;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {
@@ -27,7 +35,7 @@ ul {
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 24px;
 }
 li {
     
@@ -35,14 +43,22 @@ li {
 
 }
 h1 {
-    font: 90px;
+    font-size: 60px;
     margin: 0;
-    font-family: 600;
+}
+h2 {
+    font-size: 50px;
 }
 p {
     margin: 0;
     font-weight: 300;
     font-size: 30px;
+}
+.hero-area {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
 }
 .hero-text{ 
     margin-left: 80px;
@@ -52,7 +68,7 @@ p {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: #FF6384;
     text-align: center;
     font-weight: 100;
     font-size: 30px;
@@ -70,22 +86,71 @@ p {
 body {
     font-family: 'Varela Round', sans-serif;
 }
-.hero-area {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    justify-content: space-between;
-}
+
 
 .socials {
     padding-bottom: 200px;
 }
-
+.social {
+    margin: 10px;
+}
 .logo {
     height: 80px;
     margin: 30px;
     border-radius: 25px;
 }
-.social {
-    margin: 10px;
+
+.subsection {
+    display: flex;
+    margin: 30px;
+    /* justify-content: space-evenly; */
+    padding: 20px;
+    
+}
+
+.info {
+ padding:30px;
+}
+.headshot {
+    height: 200px;
+    border-radius: 20%;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.resume-pic {
+    border-radius: 20%;
+}
+.listed {
+    font-size: medium;
+}
+.resume-right {
+    display: flex;
+    padding: 30px;
+
+
+}
+.fg-logo {
+ width: 100px;
+ 
+}
+
+.p-resume {
+    font-size: medium;
+}
+h5{
+    display: flex;
+    justify-content: space-between;
+}
+.space-icons {
+    justify-content: flex-start;
+    padding: 20px;
 }
