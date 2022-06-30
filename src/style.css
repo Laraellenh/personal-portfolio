@@ -215,7 +215,12 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
-
+    .resume-right {
+        display: flex;
+        padding: 5px;
+    
+    
+    }
     .ham {
     border: 0;
     background-color: transparent;
@@ -230,15 +235,120 @@ a {
         background-color:  #4651a9;
         margin: 0px;
     }
-    nav {
-       display: flex;
-       flex-direction: column-reverse;
-       background-color:  #4651a9;
+   
+    .subsection {
+        margin: 2px;
+        padding: 0;
+    }
+    .resume-section {
+         margin: 10px;
+        padding: 2;
+        display:block;
     }
     .logo {
         display: none;
     }
+    b {
+        font-size: 20px;
+    }
+
+  section {
+    border: none;
+    font-size: small;
+    padding: none;
+    margin: 2 px;
+  }
+  h1 {
+    font-size: medium;
+  }
+  h2 {
+    font-size: small;
+  }
+  body {
+    font-size: small;
+    padding:none;
+  }
+  .p-resume {
+    font-size: small;
+    padding: 2px;
+  }
+  b {
+    font-size: medium;
+  }
+  p {
+    font-size: small;
+  }
+  h5 {
+    font-size: small;
+  }
+  .interest-images {
+    max-width: 200px;
+  }
+  .child {
+    flex-wrap: nowrap;
+  }
+  .hero-area {
+    max-width: 50%;
+  }
+  .headshot {
+    display: wrap;
+  }
+  .listed {
+    font-size: small;
+  }
+  .p-resume {
+    padding: 2 px;
+    margin: 5px;
+  }
+  .info {
+    padding: 5px;
+    display: grid;
+    margin: 5px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color:  #4651a9;
+    width: fit-content;
+    
+ }
 }
 .ham:focus {
     outline: 0;
 }
+@media only screen and (max-width: 500px) {
+
+    .socials {
+        padding-right: -15px;
+      }
+      nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color:  #4651a9;
+        
+     }
+     .p-resume {
+        padding: 5 px;
+        margin: 10px;
+      }
+      #about {
+        display:block;
+      }
+      section {
+        display: block;
+      }
+      .work {
+        padding: 5px;
+      }
+      .interest-padd {
+        padding: 1px;
+        margin: 20px;
+      }
+      h2 {
+        font-size: medium;
+      }
+      #resume {
+        padding: 2px;
+        margin: 10px;
+      }
+    }
