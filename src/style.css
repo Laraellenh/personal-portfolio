@@ -163,7 +163,7 @@ border-radius: 20%;
   font-size: medium;
   padding-bottom: 30 px;
   margin-right: 30px;
-  text-indent: 15px;
+  text-indent: 20px;
 }
 
 .space-icons {
@@ -252,12 +252,12 @@ border-radius: 20%;
       font-size: 20px;
   }
 
-section {
-  border: none;
-  font-size: small;
-  padding: none;
-  margin: 2 px;
-}
+  section {
+    border: none;
+    font-size: small;
+    padding: none;
+    margin: 2 px;
+  }
 h1 {
   font-size: medium;
 }
@@ -298,10 +298,11 @@ h5 {
 }
 .p-resume {
   padding: 2 px;
-  margin: 5px;
+  margin: 50px;
 }
 .info {
   padding: 5px;
+  padding-top: 0;
   display: grid;
   margin: 5px;
 }
@@ -328,20 +329,28 @@ nav {
       
    }
    .p-resume {
-      padding: 5 px;
-      margin: 10px;
+      padding: 5px;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin: 20px;
+      max-width: fit-content;
+      /* text-size-adjust: auto; */
     }
     #about {
       display:block;
+      max-width: auto;
     }
     section {
       display: block;
+      width: 450px;
     }
     .work {
       padding: 5px;
     }
     .interest-padd {
-      padding: 1px;
+      padding: 10px;
+      padding-bottom: 0;
+      padding-top: 0;;
       margin: 20px;
     }
     h2 {
@@ -350,5 +359,13 @@ nav {
     #resume {
       padding: 2px;
       margin: 10px;
+      max-width: 450px;
     }
+   .hero-area {
+    max-width: fit-content;
+   }
+   .info {
+   text-align: left;
+   }
+   
   }
