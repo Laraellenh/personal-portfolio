@@ -206,11 +206,19 @@ border-radius: 20%;
   padding: 20px;
 }
 
-
+.interest-p {
+  margin: 40px;
+  text-indent: 20px;
+}
 .ham {
   display: none;
 }
 @media only screen and (max-width: 1000px) {
+  .work {
+    padding: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
   .image-span {
       display: flex;
       flex-wrap: wrap;
@@ -218,8 +226,28 @@ border-radius: 20%;
   .resume-right {
       display: flex;
       padding: 5px;
+      margin: 20px;
   
-  
+  }
+  .resume-section {
+    margin-left: -10;
+    
+  }
+  .headshot {
+    margin-left:0;
+  }
+  .interest-padd {
+    font-size: medium;
+    margin: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-indent: 0;
+    margin-top: 0;
+  }
+  .interest-p {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-indent: 0px;
   }
   .ham {
   border: 0;
@@ -237,11 +265,12 @@ border-radius: 20%;
   }
  
   .subsection {
-      margin: 2px;
+      margin: 5%;
       padding: 0;
+      margin-right: 5%;
   }
   .resume-section {
-       margin: 10px;
+      
       padding: 2;
       display:block;
   }
@@ -250,6 +279,7 @@ border-radius: 20%;
   }
   b {
       font-size: 20px;
+      margin: 0;
   }
 
   section {
@@ -263,6 +293,7 @@ h1 {
 }
 h2 {
   font-size: small;
+  margin: 0;
 }
 body {
   font-size: small;
@@ -274,6 +305,8 @@ body {
 }
 b {
   font-size: medium;
+  padding: 0;
+  margin: 0px;
 }
 p {
   font-size: small;
@@ -281,24 +314,25 @@ p {
 h5 {
   font-size: small;
 }
+h6 {
+  margin: 0;
+  padding: 0;
+}
 .interest-images {
   max-width: 200px;
 }
-.child {
-  flex-wrap: nowrap;
-}
+
 .hero-area {
-  max-width: 50%;
+  max-width: auto;
 }
-.headshot {
-  display: wrap;
-}
+
 .listed {
   font-size: small;
 }
 .p-resume {
   padding: 2 px;
-  margin: 50px;
+  
+  text-indent: 0;
 }
 .info {
   padding: 5px;
@@ -312,6 +346,15 @@ nav {
   background-color:  #4651a9;
   width: fit-content;
   
+}
+#about {
+  max-width: 90%;
+}
+.info-title {
+  padding: 10px;
+}
+.socials {
+  justify-self: flex-end;
 }
 }
 .ham:focus {
@@ -329,11 +372,13 @@ nav {
       
    }
    .p-resume {
-      padding: 5px;
+      padding: 0px;
       padding-top: 0;
       padding-bottom: 0;
-      margin: 20px;
+      margin: 0px;
       max-width: fit-content;
+      text-indent: 0;
+      margin-right: 10%;
       /* text-size-adjust: auto; */
     }
     #about {
@@ -346,26 +391,60 @@ nav {
     }
     .work {
       padding: 5px;
+      margin: 20;
+    }
+    .interest-p {
+      margin: 40px;
+      text-indent: 0;
+      padding: 0;
+      margin-right: 10%;
+      
     }
     .interest-padd {
-      padding: 10px;
+      padding: 20px;
       padding-bottom: 0;
       padding-top: 0;;
       margin: 20px;
+      text-align: match-parent;
     }
     h2 {
       font-size: medium;
+      margin: 0;
+    }
+    .info-title {
+      margin: 20px;
     }
     #resume {
       padding: 2px;
       margin: 10px;
       max-width: 450px;
+     
     }
    .hero-area {
     max-width: fit-content;
    }
    .info {
    text-align: left;
+   margin: 20px;
    }
+   .headshot {
    
+   justify-items: center;
+   margin-left: 35px;
+   }
+   #resume {
+    margin: 20px;
+   }
+   .child {
+    margin: 20px;
+   }
+   .resume-pic {
+    margin: 20px;
   }
+i {
+  margin: 10px;
+}
+b {
+  margin-right: 10%;
+}
+}
