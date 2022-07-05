@@ -24,7 +24,7 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 80px;
+  padding: 1%;
 }
 
 nav {
@@ -35,9 +35,9 @@ nav {
 ul {
   display: flex;
   list-style-type: none;
-  width: 500px;
+  width: 30%;
   justify-content: space-around;
-  font-size: 24px;
+  font-size: large;
 }
 ul.show {
   display: block;
@@ -48,18 +48,18 @@ li {
 
 }
 h1 {
-  font-size: 60px;
+  font-size: larger;
   margin: 0;
 }
 h2 {
-  font-size: 30px;
+  font-size: large;
   padding-top: 0;
   padding-bottom: 0;
 }
 h5{
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: medium;
   padding: none;
   margin-bottom: none;
   text-justify: distribute;
@@ -71,7 +71,7 @@ h6 {
 p {
   margin: 0;
   font-weight: 300;
-  font-size: 30px;
+  font-size: medium;
 }
 .hero-area {
   display: flex;
@@ -80,8 +80,8 @@ p {
   justify-content: space-between;
 }
 .hero-text{ 
-  margin-left: 80px;
-  margin-bottom: 200px;
+  margin-left: 10%;
+  margin-bottom: 10%;
 }
 .button {
   width: 200px;
@@ -96,7 +96,7 @@ p {
   
 }
 .button:hover {
-  background-color: #ef744b;
+  background-color: #FF6384; opacity: .7;
 }
 .button:active {
   background-color: #A9A9A9;
@@ -108,10 +108,14 @@ body {
 
 
 .socials {
-  padding-bottom: 200px;
+  padding-bottom: 10%;
+  margin: 5%;
+  display: grid;
 }
 .social {
-  margin: 10px;
+  /* margin: 5%; */
+ padding-right: 20%;
+ -ms-flex-align: end;
 }
 .logo {
   height: 80px;
@@ -220,7 +224,7 @@ border-radius: 20%;
 #interests {
   margin: 10px;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1050px) {
   .child {
     padding-bottom: 20px;
   }
@@ -236,7 +240,7 @@ border-radius: 20%;
   .resume-right {
       display: flex;
       padding: 5px;
-      margin: 20px;
+    
   
   }
   .resume-section {
@@ -244,7 +248,7 @@ border-radius: 20%;
     
   }
   .headshot {
-    margin-left:0;
+    margin-left: 2%;
   }
   .interest-padd {
     font-size: medium;
@@ -276,9 +280,10 @@ border-radius: 20%;
   }
  
   .subsection {
-      margin: 5%;
+      margin: 3%;
       padding: 0;
-      margin-right: 5%;
+     display: block;
+     
   }
   .resume-pic {
     padding-bottom: 10px;
@@ -303,10 +308,10 @@ border-radius: 20%;
     margin: 2 px;
   }
 h1 {
-  font-size: medium;
+  font-size: large;
 }
 h2 {
-  font-size: small;
+  font-size: medium;
   margin: 0;
 }
 body {
@@ -336,9 +341,6 @@ h6 {
   max-width: 200px;
 }
 
-.hero-area {
-  max-width: auto;
-}
 
 .listed {
   font-size: small;
@@ -368,21 +370,34 @@ nav {
 }
 .socials {
   justify-self: flex-end;
+  margin: 10%;
 }
 }
 .ham:focus {
   outline: 0;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
 
   .socials {
       padding-right: -15px;
+    }
+    .social {
+      margin: -25%
     }
     nav {
       display: flex;
       flex-direction: column-reverse;
       background-color:  #4651a9;
       
+   }
+   .hero {
+    width: 100%;
+    display: block;
+    font-size: smaller;
+   
+   }
+   .hero-area {
+    width: auto;
    }
    .p-resume {
       padding: 0px;
@@ -398,13 +413,13 @@ nav {
       display:block;
       max-width: auto;
     }
-    section {
-      display: block;
-      width: 450px;
-    }
+    /* section {
+      display: inline-block;
+      width: auto;
+    } */
     .work {
-      padding: 5px;
-      margin: 20;
+       padding: 5%; 
+      /* margin: 20%; */ 
     }
     .interest-p {
       /* margin: 40px; */
@@ -434,7 +449,10 @@ nav {
      
     }
    .hero-area {
-    margin: 0;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+    
    }
    .info {
    text-align: left;
@@ -461,7 +479,8 @@ b {
   margin-right: 10%;
 }
 footer {
-  width: auto;
+  width: 100%;
   margin-right: 0;
 }
+
 }
