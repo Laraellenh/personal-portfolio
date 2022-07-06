@@ -64,7 +64,7 @@ h2 {
   margin: 2%;
 }
 h3 {
-  font-weight: bold;
+  font-weight: bolder;
 }
 h5{
   display: flex;
@@ -162,9 +162,11 @@ a {
   color: white;
 }
 .resume-pic {
-  border-radius: 5px;
+  border-radius: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
+  width: 200px;
+
 }
 .listed {
   font-size: medium;
@@ -262,7 +264,7 @@ border-radius: 20%;
     
   }
   .headshot {
-    margin-left: 2%;
+    margin-left: 10%;
   }
   .interest-padd {
     font-size: medium;
@@ -304,7 +306,8 @@ border-radius: 20%;
      
   }
   .resume-pic {
-    padding-bottom: 10px;
+    display: none;
+    
   }
   .resume-section {
       
@@ -351,7 +354,7 @@ b {
 }
 p {
   font-size: small;
-  margin: 10%;
+  margin: 6%;
 }
 h5 {
   font-size: small;
@@ -373,10 +376,15 @@ h6 {
   text-indent: 0;
 }
 .info {
-  padding: 5px;
+  padding: 10px;
   padding-top: 0;
   display: grid;
-  margin: 20%
+  margin: 10%;
+  padding-left: 10%;
+}
+.info-title{ 
+  margin: 0;
+  padding-bottom: 0;
 }
 nav {
   display: flex;
@@ -391,6 +399,9 @@ nav {
 .info-title {
   padding: 10%;
   margin:" 10%"
+}
+.info {
+  margin: 2%;
 }
 .socials {
   justify-self: flex-end;
@@ -494,6 +505,11 @@ nav {
    margin-left: 15%;
 
    }
+   .resume-pic {
+    justify-items: center;
+    border-radius: 10px;
+  
+   }
    .headshot {
    
    justify-items: center;
@@ -523,6 +539,7 @@ footer {
 }
 h1 {
   padding: 10px;
+  font-size: larger;
 }
 }
 
