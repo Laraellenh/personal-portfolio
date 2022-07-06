@@ -3,7 +3,9 @@ body {
   margin: 0;
   
 }
-
+.info {
+  margin: 2%;
+}
 section {
 
   background-color: white;
@@ -49,12 +51,16 @@ li {
 }
 h1 {
   font-size: larger;
-  margin: 0;
+  margin: 5px;
 }
 h2 {
   font-size: large;
   padding-top: 0;
   padding-bottom: 0;
+  font-weight: bolder;
+}
+h3 {
+  font-weight: bold;
 }
 h5{
   display: flex;
@@ -67,9 +73,10 @@ h5{
 h6 {
   padding: 0px;
   font-size: small;
+  font-weight: bold;
 }
 p {
-  margin: 0;
+  margin: 2.5%;
   font-weight: 300;
   font-size: medium;
 }
@@ -119,16 +126,16 @@ body {
  -ms-flex-align: end;
 }
 .logo {
-  width: 113px;
+  width: 10%;
   margin: 5%;
   border-radius: 25px;
 }
 
 .subsection {
   display: flex;
-  margin: 30px;
+  margin: 5%;
   /* justify-content: space-evenly; */
-  padding: 30px;
+  padding: 2%;
   
 }
 
@@ -180,7 +187,7 @@ border-radius: 20%;
   padding: 20px;
 }
 .work {
-  font-size: 40px;
+  font-size: larger;
   padding: 20px;
   margin-left: 20px;
 }
@@ -213,12 +220,12 @@ border-radius: 20%;
 }
 
 .interest-padd {
-  padding: 20px;
+  padding: 10px;
 }
 
 .interest-p {
-  margin: 30px;
-  font-size: 20px;
+  margin-left: 2%;
+  font-size: medium;
 
 }
 .ham {
@@ -281,6 +288,9 @@ border-radius: 20%;
       background-color:  #4651a9;
       margin: 0px;
   }
+  span {
+    margin: 10%;
+  }
  
   .subsection {
       margin: 3%;
@@ -336,6 +346,7 @@ b {
 }
 p {
   font-size: small;
+  margin: 10%;
 }
 h5 {
   font-size: small;
@@ -360,7 +371,7 @@ h6 {
   padding: 5px;
   padding-top: 0;
   display: grid;
-  margin: 5px;
+  margin: 20%
 }
 nav {
   display: flex;
@@ -373,7 +384,8 @@ nav {
   max-width: 90%;
 }
 .info-title {
-  padding: 10px;
+  padding: 10%;
+  margin:" 10%"
 }
 .socials {
   justify-self: flex-end;
@@ -462,8 +474,9 @@ nav {
     
    }
    .info {
-   text-align: left;
-   margin: 5%;
+   
+   margin-left: 15%;
+
    }
    .headshot {
    
