@@ -142,7 +142,7 @@ body {
 
 .headshot {
   height: 200px;
-  border-radius: 20%;
+  border-radius: 20px;
   padding: 10px;
 }
 
@@ -163,12 +163,7 @@ a {
 .listed {
   font-size: medium;
 }
-.resume-right {
-  display: flex;
-  padding: 30px;
 
-
-}
 .fg-logo {
 width: 100px;
 border-radius: 20%;
