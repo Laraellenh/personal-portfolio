@@ -136,6 +136,7 @@ body {
 .headshot {
   height: 200px;
   border-radius: 20%;
+  padding: 10px;
 }
 
 .headshot-container {
@@ -149,7 +150,8 @@ a {
   color: white;
 }
 .resume-pic {
-  border-radius: 20%;
+  border-radius: 5px;
+  max-width: fit-content;
 }
 .listed {
   font-size: medium;
@@ -310,11 +312,14 @@ border-radius: 20%;
   }
 h1 {
   font-size: large;
-  font-weight: 300;
+  font-weight: 400;
 }
 h2 {
   font-size: medium;
   margin: 0;
+}
+h3 {
+  font-weight: 700;
 }
 body {
   font-size: medium;
