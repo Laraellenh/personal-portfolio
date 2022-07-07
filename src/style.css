@@ -506,6 +506,7 @@ nav {
    }
    .headshot {
    
+   
    margin-left: 12%;
    }
    #resume {
@@ -531,7 +532,8 @@ footer {
   margin-right: 0;
 }
 h1 {
-  
+  padding: 10px;
+  font-size: larger;
 }
 }
 
