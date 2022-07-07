@@ -10,10 +10,7 @@ body {
   margin: 2%;
 }
 section {
-
   background-color: white;
- 
-
 }
 
 .hero {
@@ -44,13 +41,11 @@ ul {
   justify-content: space-around;
   font-size: large;
 }
-ul.show {
+.show {
   display: block;
 }
 li {
-  
   text-decoration: none;
-
 }
 h1 {
   font-size: larger;
@@ -70,8 +65,8 @@ h5{
   display: flex;
   justify-content: space-between;
   font-size: medium;
-  padding: none;
-  margin-bottom: none;
+  padding: inherit;
+  margin-bottom: 0;
   text-justify: distribute;
 }
 h6 {
@@ -88,7 +83,7 @@ p {
 .hero-area {
   display: flex;
   flex-wrap: wrap;
-  align-items: center; overflow-block: scroll;
+  align-items: center; 
   height: 100%;
   justify-content: space-between;
 }
@@ -208,19 +203,18 @@ border-radius: 20%;
   padding: 30px;
   padding-bottom: 0px;
   display: flex;
-  position: sticky;
+  /* position: sticky; */
   flex-direction: row;
 }
 .image-span {
   padding: 30px;
-  display: space-evenly;
+  /* display: space-evenly; */
 }
 .interest-images {
   height: 200px;
   padding: 25px;
   border-radius: 20%;
   padding-top: 5%;
-  
 }
 
 .interest-padd {
@@ -512,7 +506,6 @@ nav {
    }
    .headshot {
    
-   justify-items: center;
    margin-left: 12%;
    }
    #resume {
@@ -538,8 +531,7 @@ footer {
   margin-right: 0;
 }
 h1 {
-  padding: 10px;
-  font-size: larger;
+  
 }
 }
 
