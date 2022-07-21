@@ -203,6 +203,7 @@ border-radius: 20%;
   justify-content: flex-start;
   padding: 10px;
   padding-left: 0;
+  margin-right: 20px;
 }
 .work {
   font-size: larger;
@@ -227,8 +228,8 @@ border-radius: 20%;
   flex-direction: row;
 }
 .image-span {
-  padding: 30px;
-  padding-left: 50px;
+  padding: 25px;
+ 
   /* display: space-evenly; */
 }
 .interest-images {
