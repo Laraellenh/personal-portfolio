@@ -3,6 +3,9 @@ body {
   margin: 0;
   
 }
+.info {
+  margin-left: 2%;
+}
 
 .info-title {
   margin: 2%;
