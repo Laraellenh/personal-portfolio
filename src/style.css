@@ -3,9 +3,7 @@ body {
   margin: 0;
   
 }
-.info {
-  /* margin: 4%; */
-}
+
 .info-title {
   margin: 2%;
 }
@@ -251,9 +249,7 @@ border-radius: 20%;
 .ham {
   display: none;
 }
-#interests {
-  
-}
+
 @media only screen and (max-width: 1050px) {
   .child {
     padding-bottom: 20px;
@@ -584,7 +580,6 @@ nav {
    
    .resume-pic {
     margin: 5%;
-    
     
   }
 i {
