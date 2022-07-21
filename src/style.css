@@ -445,8 +445,9 @@ nav {
   margin-left: 2%;
 }
 .info {
-  margin: 2%;
+  /* margin: 2%; */
   padding-bottom: 40px;
+  margin-left: 2%;
 }
 .socials {
   justify-self: flex-end;
@@ -502,6 +503,7 @@ nav {
       text-indent: 0;
       margin-right: 10%;
       line-height: 20px;
+      
       /* text-size-adjust: auto; */
     }
     #about {
@@ -544,7 +546,8 @@ nav {
       padding-top: 20px;
     }
     .margin {
-      margin:0;
+      
+      margin: 2%;
     }
     
     #resume {
@@ -571,7 +574,7 @@ nav {
    }
    .headshot {
   
-   margin-left: 10%;
+   margin-left: 5%;
    padding-bottom: 30px;
    }
    #resume {
