@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Optima, sans-serif";
   margin: 0;
   
 }
@@ -7,7 +7,7 @@ body {
   margin: 4%;
 }
 .info-title {
-  margin: 2%;
+  margin: 4%;
 }
 section {
   background-color: white;
@@ -52,7 +52,7 @@ h1 {
   margin: 5px;
 }
 h2 {
-  font-size: large;
+  font-size: 16px;
   padding-top: 0;
   padding-bottom: 0;
   font-weight: bolder;
@@ -68,6 +68,10 @@ h5{
   padding: inherit;
   margin-bottom: 0;
   text-justify: distribute;
+}
+.school {
+  margin: 2%;
+
 }
 h6 {
   padding: 0px;
@@ -111,7 +115,7 @@ p {
   color: #808080;
 }
 body {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Optima, sans-serif";
 }
 
 
@@ -215,6 +219,12 @@ border-radius: 20%;
   padding: 25px;
   border-radius: 20%;
   padding-top: 5%;
+}
+.zoom-image{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ align-self: flex-start;
 }
 
 .interest-padd {
@@ -363,7 +373,7 @@ h6 {
 
 
 .listed {
-  font-size: small;
+  font-size: medium;
 }
 .p-resume {
   padding: 2 px;
@@ -423,8 +433,10 @@ nav {
       
    }
    .fg-logo {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
    }
+  
    .hero {
     width: 100%;
     display: block;
